@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: JZEPEDA-8LFW2X2
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
