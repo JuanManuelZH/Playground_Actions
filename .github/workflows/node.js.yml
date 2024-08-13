@@ -34,7 +34,7 @@ jobs:
     - run: sudo yarn jest --coverage --coverageDirectory='cobertura_pruebas'
       working-directory: Pass-List-App/app
     - name: publicar carpeta de coverturas
-      uses: action/upoad-artifact@v3
+      uses: actions/upoad-artifact@v3
       with:
         name: coverage-result
         path: Pass-List-App/app/cobertura_pruebas
