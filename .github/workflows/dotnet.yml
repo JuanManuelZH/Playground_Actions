@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: configuracion variable de entorno
-      run:  echo "APP_DIR=Pass-Analytics-Puller-Service/data-agent-service" >> $GITHUB_ENV
+      run:  echo "APP_DIR=Playground_Actions" >> $GITHUB_ENV
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
